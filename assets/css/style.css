@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,700,700i&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+  font-size: 14px !important;
+  line-height: 30px !important;
+  color: #fff !important;
+  font-weight: 300;
+  background: #454545 !important;
+}
+h1, h2, h3, h4, h5, h6{
+	color: #c1a87d;
+	text-transform: uppercase;
+	text-align: center;
+}
+.mt-20{
+	margin-top: 20px;
+}
+/*custom style*/
+ /* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: -webkit-fill-available;
+}
+.carousel-caption h3{
+	font-size: 60px;
+} 
+.carousel-caption{
+	background: #454545eb;
+}
+.why-tvh{
+	text-align: center;
+}
+.why-tvh i{
+	font-size: 100px;
+  display: block;
+  padding: 50px 0;
+}
+.why-tvh h2{
+	font-size: 30px;
+}
+.why-tvh h5{
+	text-transform: capitalize;
+}
+.tvh-list-property{
+	background: #59585d
+}
+.p-tb-100{
+	padding: 100px 0;
+}
+/*flip animation style starts*/
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	height: 360px;
+	width: 100%;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	background: #454545;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+.flip-card-front span{
+	display: block;
+  padding: 15px 0;
+  text-align: center;
+}
+.flip-card-front span label {
+    /* background: palegoldenrod; */
+    padding: 2px 20px;
+    border-radius: 18px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #c1a87d;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.flip-card-back {
+    color: white;
+    padding: 10px;
+}
+.flip-card-back ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+.flip-card-back ul li {
+    padding: 5px 0;
+}
+.flip-card-back a {
+    background: #bea67c;
+    padding: 5px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+}
+/*flip animaiton style ends*/
+.tvh-list-property{
+
+}
+.tvh-list-property h2{
+	margin-bottom: 60px;
+}
