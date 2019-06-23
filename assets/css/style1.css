@@ -7,10 +7,9 @@ body{
   line-height: 30px !important;
   color: #fff !important;
   font-weight: 300;
-  background: #454545 !important;
-  /*background-color: #485461;*/
-  /*background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);*/
-  -webkit-font-smoothing: antialiased;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+
 }
 h1, h2, h3, h4, h5, h6{
 	color: #c1a87d;
@@ -30,7 +29,8 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 60px;
 } 
 .carousel-caption{
-	background: #404040c7;
+	/*background: #404040c7;*/
+	/*border: 1px solid #c1a87d;*/
 }
 .why-tvh{
 	text-align: center;
@@ -50,7 +50,8 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 18px;
 }
 .tvh-list-property{
-	background: #59585d;
+	background-color: #485461;
+	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 .p-tb-100{
 	padding: 100px 0;
@@ -81,7 +82,7 @@ h1, h2, h3, h4, h5, h6{
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-	background: #454545;
+	background: #485461;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -183,8 +184,9 @@ header{
     font-size: 3em;
     color: #c1a87d;
 }
-.tvh-navbar{
-	background: #404040c7;
+.tvh-navbar, .tvh-navbar-inner{
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 /*footer style*/
@@ -232,4 +234,5 @@ header{
 	top: 0;
 	bottom: 0;
 	background: #000000a6;
+	z-index: 10;
 }
